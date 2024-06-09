@@ -235,6 +235,14 @@ button {
     .menu-control:checked ~ .menu-btn .menu-close {
         display: inline-block;
     }
+	
+    .nav .nav-btn::before {
+        left:  40%;
+    }
+
+    .nav .nav-btn::after {
+        right: 40%;
+    }
 
 }
 
@@ -248,15 +256,6 @@ button {
 
     .menu-control:checked ~ .menu {
         top: 57px;
-    }
-
-    .nav .nav-btn::before {
-        /* right: 47%; */
-        left:  40%;
-    }
-
-    .nav .nav-btn::after {
-        right: 40%;
     }
 }
 
